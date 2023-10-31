@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="css/log_style.css"> 
+</head>
+<body>
+
+    <div id="div"><h1>Sign in form</h1> </div>
+    <div id="form"><br><br>
+        <table>
+            
+            <form   action="form.php" method="post">
+            <tr>
+                <td>
+                    <label id="la"><b>User name :</b></label><br>
+                    <input id="ep" type="text" placeholder="Enter your name" name="user_name"  autofocus  minlength="9" maxlength="100"  required>
+                </td>
+                <td> 
+                </td>
+                <tr>
+                    <label id="la"><b>Email :</b></label><br>
+                    <input id="ep" type="email" placeholder="Enter Email" name="email" required>
+                </td>
+            </tr>
+                <tr>
+                    <td>
+                        <label id="la"><b>Password :</b></label><br>
+                        <input id="ep" type="password" placeholder="Enter Password" name="psw" autofocus  minlength="8" maxlength="100" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>   
+                        <label id="la"><b>Confirm Password :</b></label><br>
+                        <input id="ep" type="password" placeholder="Enter confirm Password" name="conpsw" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                   <td>
+                      <b id="la">Gender:</b>
+                        <input id="s" type="radio"  name ="Gender" required><label>male</label>
+                        <input id="d" type="radio"  name ="Gender" required><label >female</label></div>
+                    </td>
+                </tr>
+                    <tr>
+                     <td><a href="login.html" target="_blank"><input id="b1" type="submit" ></button></a></td>
+                     <td><input id="b2" type="reset"value="reset"></td>
+                 </tr>
+                 
+              
+                       <!--  <button id="b2" type="button" class="btn cancel" >Close</button> -->
+                        
+                    
+                    </form>
+        </table>
+    </div>
+    <img src="photo.jpg"  id="lo">
+
+</body>
+</html> 
